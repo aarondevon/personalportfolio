@@ -2,7 +2,58 @@
 
 body {
     font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 
 /****************************************/
 
+
+/*Header/Nav*/
+
+.head-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+}
+
+.logo-image {
+
+    float: left;
+}
+
+.head-name {
+    float: right;
+}
+.head-name h1 {
+    font-weight: 300;
+}
+.head-name h2 {
+    font-weight: 200;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+
+}
+
+/****************************************/
+
+
+/*Main*/
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/****************************************/
