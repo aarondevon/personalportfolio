@@ -65,3 +65,30 @@ nav a {
 }
 
 /****************************************/
+
+
+/*Footer*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contact-me {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+/****************************************/
