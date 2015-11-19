@@ -1,11 +1,5 @@
 @media screen and (max-width: 500px) {
-
-    .head-container {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .main-container {
+    .head-container, .main-container, .footer-container {
         margin-left: 15px;
         margin-right: 15px;
     }
