@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-responsive-images": "^0.1.7"
   }
 }
