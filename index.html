@@ -9,8 +9,26 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/media_query.css">
     <script src="js/picture_fill.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
+    <div class="hidden-nav">
+        <nav class="mobile">
+            <a href="#" id="menu">
+                <!--<img src="images/icon-menu.svg"> Menu-->
+                <p class="hamburger">&#9776; Menu</p>
+            </a>
+            <div class="hide-me">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="head-container">
         <header>
             <picture class="logo-image">
@@ -25,14 +43,13 @@
                 <h2>Front End Ninja</h2>
             </div>
         </header>
-        <nav>
+        <nav class="large-nav">
             <hr>
             <ul>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#contact">Contact Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
             </ul>
             <hr>
         </nav>
@@ -45,14 +62,24 @@
 
     <main class="main-container">
         <section class="projects">
-            <h3><a name="projects"></a>Projects</h3>
+                <h3><a name="projects"></a>Projects</h3>
+                <div class="proj-1"><img src="images/comingsoon-medium.png" alt="Project 1"></div>
+                <div class="proj-2"><img src="images/comingsoonorange-medium.png" alt="Project 2"></div>
+                <div class="proj-3"><img src="images/comingsoon-medium.png" alt="proj-3"></div>
+                <div class="proj-4"><img src="images/comingsoonorange-medium.png" alt="proj-4"></div>
+                <div class="proj-5"><img src="images/comingsoon-medium.png" alt="proj-5"></div>
+                <div class="proj-6"><img src="images/comingsoonorange-medium.png" alt="proj-6"></div>
         </section>
+
         <section class="Skills">
             <h3><a name="skills"></a>Skills</h3>
         </section>
+
         <section class="about-me">
-            <h3><a href="about"></a>About Me</h3>
+            <h3><a name="about"></a>About Me</h3>
+            <p> Not to long ago I found this (x2261) (U+2630) &#9776;</p>
         </section>
+
     </main>
     <footer class="footer-container">
         <section class="contact-me">
